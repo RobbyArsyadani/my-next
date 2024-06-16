@@ -1,11 +1,4 @@
-"use client";
-import { useEffect } from "react";
-import ScrollReveal from "scrollreveal";
-
 export default function Footer() {
-  useEffect(() => {
-    ScrollReveal().reveal("footer");
-  });
   return (
     <>
       <div className="footer">
